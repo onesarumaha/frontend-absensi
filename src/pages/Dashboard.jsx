@@ -65,14 +65,14 @@ function Dashboard() {
       <main className="lg:ml-[250px]">
         <Header setSidebarOpen={setSidebarOpen} />
 
-        <div className="p-4 sm:p-6 lg:p-7">
+        <div className="p-4 sm:p-6 lg:p-0">
           {/* =========================
               TOP TITLE
           ========================== */}
           <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h1 className="text-xl font-semibold text-[#17345f]">
-                Ringkasan Kehadiran
+                Dashboard
               </h1>
 
               <p className="mt-1 text-xs text-slate-400">
